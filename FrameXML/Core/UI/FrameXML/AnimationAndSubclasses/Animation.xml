@@ -1,0 +1,14 @@
+<Root>
+
+    <Animation>
+        <Alpha/>
+        <Rotation/>
+        <Scale/>
+        <LineScale/>
+        <Translation/>
+        <LineTranslation/>
+    </Animation>
+
+    <AnimationGroup/><!-- no reference -->
+
+</Root>

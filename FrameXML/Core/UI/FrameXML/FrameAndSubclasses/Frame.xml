@@ -1,0 +1,57 @@
+<Root>
+
+    <LayoutFrame name=""
+                 parentKey="" parentArray="" inherits=""
+                 mixin="" secureMixin=""
+                 virtual="false"
+                 setAllPoints="false" hidden="false">
+        <Size/>
+        <Anchors/>
+        <Animations>
+            <AnimationGroup/>
+        </Animations>
+    </LayoutFrame>
+
+    <Frame alpha="1.0" parent=""
+           topLevel="false" flattenRenderLayers="false" useParentLevel="false"
+           movable="false" resizable="false"
+           frameStrata="PARENT" frameLevel="" id="0"
+           enableMouseClicks="false" enableMouseMotion="false" enableKeyboard="false"
+           clampedToScreen="false" protected="false" depth="0" dontSavePosition="false" propagateKeyboardInput="false"
+           ignoreParentAlpha="false" ignoreParentScale="false" intrinsic="false" clipChildren="false"
+           propagateHyperlinksToParent="false" hyperlinksEnabled="false">
+        <TitleRegion/>
+        <ResizeBounds/>
+        <Backdrop/>
+        <HitRectInsets/>
+        <Layers/>
+        <Frames/>
+        <Scripts/>
+    </Frame>
+
+    <!--
+    alpha (float) 指示透明度 1.0 完全透明 0.0 完全不透明
+    parent
+    topLevel
+    flattenRenderLayers
+    useParentLevel
+    movable
+    resizable
+    frameStrata
+    frameLevel
+    enableMouseClicks
+    enableMouseMotion
+    enableKeyboard (bool) true 允许 Frame 接受键盘输入。
+    clampedToScreen (bool) true 禁止 elements 离开屏幕，应用方式未知，大概只是被移动了。
+    protected
+    depth
+    dontSavePosition
+    propagateKeyboardInput
+    ignoreParentAlpha
+    ignoreParentScale
+    intrinsic
+    clipChildren
+    propagateHyperlinksToParent
+    hyperlinksEnabled
+    -->
+</Root>

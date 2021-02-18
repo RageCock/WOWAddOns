@@ -1,0 +1,11 @@
+## Interface: 80300
+## Title: [JP] TeammateTracker
+## Title-zhCN: [JP]小队队友技能监控
+## Notes: You can monitor any skills' casting time of any temmates.
+## Notes-zhCN: 追踪小队队友的技能
+## LoadOnDemand: 0
+## Author: JCC
+## Version: v8.3.0
+
+TeammateTrackerFrame.xml
+TeammateTrackerCore.lua

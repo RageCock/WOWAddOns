@@ -1,0 +1,15 @@
+<Root>
+    <!--
+     FrameXML/*Template.xml文件中存储官方提供的模板
+
+     提示：
+     1.一般而言，官方的模板都不会提供 <Anchors> ，所以在自定义 Frame 继承这些模板时，必须提供，否则不会显示。
+     2.大部分的 properties 都可以重设，例如 <Size> etc
+     3. 大部分的 attributes 都可以重设，例如 etc
+
+     -->
+
+
+
+
+</Root>

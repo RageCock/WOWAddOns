@@ -1,0 +1,10 @@
+## Interface: 80300
+## Title: [JP] CorruptionDamageMonitor
+## Title-zhCN: [JP]腐蚀相关监控
+## Notes: You can monitor any skills' casting time of any temmates.
+## Notes-zhCN: 监控你所有的腐蚀伤害。
+## LoadOnDemand: 0
+## Author: JCC
+## Version: v8.3.0
+
+CorruptionDamageMonitorCore.lua

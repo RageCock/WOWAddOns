@@ -1,0 +1,44 @@
+<Root>
+
+    <!--
+     大部分的 Frame 显示的必要条件：必须初始化某些 attributes 和 properties
+
+    目前看来 <Frame> 需要直接定义在 <Ui> 或 <Frames> 之中才合法
+    <Frame> 与 <Frame> 进行嵌套必须在父级 <Frame> 中使用 <Frames>
+
+     -->
+
+
+    <Font name=""
+          inherits=""
+          virtual="false"
+          font="" spacing="" outline="" monochrome=""
+          justifyV="" justifyH="" height="" fixedSize=""
+          filter="">
+        <TitleRegion/>
+        <FontHeight value=""/>
+        <Color/>
+        <Shadow/>
+    </Font>
+
+    <FontFamily name="" virtual="">
+        <Member alphabet=""><!-- "roman", "korean", "simplifiedchinese", "traditionalchinese" ,"russian" -->
+            <Font/>
+        </Member>
+    </FontFamily>
+
+    <!-- Frames and Regions(textures fontStrings) -->
+
+    <Anchors>
+        <Anchor point="" relativeTo="" relativePoint="" x="" y=""></Anchor>
+        <Anchor point="" relativeTo="" relativePoint=""><Offset x="" y=""/></Anchor>
+    </Anchors>
+
+
+    <!--
+     point: TOPLEFT TOPRIGHT BOTTOMLEFT BOTTOMRIGHT TOP BOTTOM LEFT RIGHT CENTER
+     relativeTo:
+     relativePoint:
+     -->
+
+</Root>

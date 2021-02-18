@@ -1,0 +1,28 @@
+## Interface: 80300
+## Title: [JAO]StatisticsDisplayer
+## Title-zhCN: [JAO]属性监控
+## Notes: |cffbc8f8fDisplay the list of all your character's statistics.|r
+## Notes-zhCN: |cff00ff00SexyMap|r|n|cffbc8f8f追踪角色的所有属性数据。|r
+## Dependencies:
+## RequiredDeps:
+## OptionalDeps:
+## SavedVariables: statisticsDisplayerDiskizationVars
+## SavedVariablesPerCharacter: statisticsDisplayerDiskizationVarsPerCharacter
+## LoadOnDemand: 0
+## LoadWith: 
+## DefaultState: disabled
+## Secure:
+## Author: JCC
+## Version: v8.3.0
+
+PreLoad.lua
+Main/Main.xml
+Main/Main.lua
+Configuration/Config.xml
+Configuration/Config.lua
+PostLoad.lua
+
+
+
+
+

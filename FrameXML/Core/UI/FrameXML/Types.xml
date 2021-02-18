@@ -1,0 +1,18 @@
+<Root>
+    <!--  -->
+
+    <Anchor point=""
+            relativeTo="" relativeKey="" relativePoint=""> <!--  -->
+
+    </Anchor>
+
+
+    <Color r="" g="" b="" a="1.0"/>
+
+    <Gradient orientation="HORIZONTAL"> <!-- VERTICAL -->
+        <MinColor/>
+        <MaxColor/>
+    </Gradient>
+
+
+</Root>

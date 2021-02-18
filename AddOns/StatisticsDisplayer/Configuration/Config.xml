@@ -1,0 +1,59 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+
+
+    <Frame name="ConfigFrame" parent="UIParent" inherits="BasicFrameTemplateWithInset">
+        <Size x="300" y="500"/>
+        <Anchors>
+            <Anchor point="CENTER" relativeTo="UIParent" relativePoint="CENTER" x="20" y="10"/>
+        </Anchors>
+        <Scripts>
+            <OnLoad>
+                self.title = self:CreateFontString("nil", "OVERLAY")
+                self.title:SetFontObject("GameFontHighlight")
+                self.title:SetPoint("LEFT", self.TitleBg, "LEFT", 5, 0)
+                self.title:SetText(" Statistics Displayer Configuration")
+            </OnLoad>
+        </Scripts>
+
+         <!-- Attributes checkbuttons -->
+         <Frames>
+         </Frames>
+
+        <!-- Bottom buttons  -->
+         <Frames>
+            <Button name="ApplyButton" parent="ConfigFrame" inherits="GameMenuButtonTemplate" text="Apply">
+                <Size x="80" y="30"/>
+                <Anchors>
+                    <Anchor point="BOTTOMLEFT" relativeTo="ConfigFrame" relativePoint="BOTTOMLEFT" x="15" y="15"/>
+                </Anchors>
+                <Scripts>
+
+                </Scripts>
+            </Button>
+
+            <Button name="ConfirmButton" parent="ConfigFrame"  inherits="GameMenuButtonTemplate" text="Confirm">
+                <Size x="80" y="30"/>
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="ApplyButton" relativePoint="RIGHT" x="15"/>
+                </Anchors>
+                <Scripts>
+                    
+                </Scripts>
+            </Button>
+
+            <Button name="CancelButton" parent="ConfigFrame"  inherits="GameMenuButtonTemplate" text="Cancel">
+                <Size x="80" y="30"/>
+                <Anchors>
+                    <Anchor point="LEFT" relativeTo="ConfirmButton" relativePoint="RIGHT" x="15"/>
+                </Anchors>
+                <Scripts>
+                    
+                </Scripts>
+            </Button>
+         </Frames>
+
+    </Frame>
+
+
+</Ui>

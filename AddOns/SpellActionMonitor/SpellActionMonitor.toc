@@ -1,0 +1,10 @@
+## Interface: 80300
+## Title: [JP] SpellActionMonitor
+## Title-zhCN: [JP]法术应对行为监控
+## Notes: You can monitor any skills' casting time of any temmates.
+## Notes-zhCN: 监控你所有针对法术的行为。
+## LoadOnDemand: 0
+## Author: JCC
+## Version: v8.3.0
+
+SpellActionMonitorCore.lua

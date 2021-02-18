@@ -1,0 +1,28 @@
+<Root>
+
+    <!-- Notes: <LayoutFrame> is an abstract FrameXML element.
+        It means <LayoutFrame> is not a real widget.
+    -->
+    <LayoutFrame name="" parentKey="" parentArray="" inherits="" mixin="" secureMixin=""
+                 virtual="false" setAllPoints="false" hidden="false">
+        <Size/>
+        <Anchors/>
+        <Animations>
+            <AnimationGroup/>
+        </Animations>
+    </LayoutFrame>
+
+    <!--
+    name
+    parentKey
+    parentArray
+    inherits 继承于
+    mixin
+    secureMixin
+    virtual 是否可以被继承
+    setAllPoints 是否将layoutFrame定位到父级的左上角和右下角
+    hidden 是否在创建时隐藏
+    -->
+
+</Root>
+

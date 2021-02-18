@@ -1,0 +1,175 @@
+<Root>
+
+    <Browser/><!-- no reference -->
+
+    <Button text="" registerForClicks="" motionScriptsWhileDisabled="">
+        <NormalTexture/>
+        <HighlightTexture/>
+        <PushedTexture/>
+        <DisabledTexture/>
+
+        <ButtonText/>
+
+        <NormalFont/>
+        <HightlightFont/>
+        <DisabledFont/>
+
+        <NormalColor/>
+        <HightlightColor/>
+        <DisabledColor/>
+
+        <PushedTexOffset/>
+
+        <Scripts>
+            <Onclick/>
+            <OnDoubleClick/>
+            <PositClick/>
+            <PreClick/>
+        </Scripts>
+    </Button>
+    <!--
+    Inherited by: <CheckButton>, <UnitButton>
+    Inherits: <Frame>
+    Defined in: <Frames>, <Ui>
+    Runtime object: UIObject Button
+
+    text (string)
+    registerForClicks (string) "LeftButtonUp,RightButtonUp"
+    motionScriptsWhileDisabled
+
+    State Normal正常 Highlight鼠标悬停 Pushed按下 Disabled被禁用
+    其他状态未被设置时，统一使用Normal状态下的设置
+    也就是说Normal状态的设置必须初始化
+
+    <Anchors> 貌似不会被继承
+
+    -->
+
+    <CheckButton checked="">
+        <CheckedTexture/>
+        <DisabledCheckedTexture/>
+    </CheckButton>
+    <!-- inherits from button
+    checked (boolean)
+    -->
+
+    <ItemButton/><!-- no reference -->
+
+    <Checkout/><!-- no reference -->
+
+    <ColorSelect>
+        <ColorWheelTexture/>
+        <ColorWheelThumbTexture/>
+        <ColorValueTexture/>
+        <ColorValueThumbTexture/>
+    </ColorSelect>
+    <!--
+
+    -->
+
+    <Cooldown reverse="">
+
+    </Cooldown>
+    <!--
+    reverse ()
+    -->
+
+    <EditBox letters="" historyLines="" ignoreArrows="" autoFocus="" multiLine="" numeric="">
+        <FontString/>
+    </EditBox>
+    <!--
+
+    -->
+
+    <FogOfWarFrame/>
+
+    <GameTooltip>
+    </GameTooltip>
+    <!--
+
+    -->
+
+    <MessageFrame insertMode="" displayDuration="">
+        <FontString/>
+    </MessageFrame>
+    <!--
+
+    -->
+
+    <Minimap minimapPlayerModel="" minimapArrowModel="">
+
+    </Minimap>
+    <!--
+
+    -->
+
+    <Model file="">
+
+    </Model>
+    <!--
+
+    -->
+
+    <PlayerModel>
+
+    </PlayerModel>
+
+    <CinematicModel>
+
+    </CinematicModel>
+
+    <DressUpModel>
+
+    </DressUpModel>
+
+    <TabardModel>
+
+    </TabardModel>
+
+    <ModelScene>
+
+    </ModelScene>
+
+    <ModelSceneActor>
+
+    </ModelSceneActor>
+
+    <MovieFrame>
+
+    </MovieFrame>
+
+    <OffScreenFrame/>
+
+    <POIFrame/>
+
+    <ArchaeologyDigSiteFrame/>
+
+    <QuestPOIFrame/>
+
+    <ScenarioPOIFrame/>
+
+    <ScrollFrame>
+        <ScrollChild/>
+    </ScrollFrame>
+
+    <ScrollingMessageFrame displayDuration="" maxLines="">
+        <FontString/>
+    </ScrollingMessageFrame>
+
+    <SimpleHTML orientation=""
+                minValue="" maxValue="" valueStep="" defaultValue="">
+        <ThumbTexture/>
+    </SimpleHTML>
+
+    <StatusBar drawLayer=""
+               minValue="" maxValue="" defaultValue="">
+        <BarTexture/>
+        <BarColor/>
+    </StatusBar>
+    <!--
+
+    -->
+
+    <TaxiRouteFrame/>
+
+</Root>

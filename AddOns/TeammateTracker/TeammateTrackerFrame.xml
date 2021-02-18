@@ -1,0 +1,49 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" 
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+    
+     <Font name="CharacterStatisticsStandardFont" font="Fonts\FRIZQT__.TTF" virtual="true" justifyV="MIDDLE" justifyH="LEFT">
+        <FontHeight val="13"/>
+        <Color r="1" g="0.8" b="0.5" a="1"/> 
+        <Shadow></Shadow>
+    </Font>
+
+    <Frame name="TeammateTrackerFrame" hidden="false" parent="UIParent" toplevel="true" enableMouse="true" movable="true">
+        <!-- these are properties -->
+        <Size x="280" y="60"/>
+        <Anchors><Anchor point="CENTER" /></Anchors>
+        <Backdrop bgFile="Interface\DialogFrame\UI-DialogBox-Background" tile="true">
+            <!-- <BackgroundInsets>
+                <AbsInset left="11" right="12" top="12" bottom="11"/>
+            </BackgroundInsets>
+            <TileSize><AbsValue val="32"/></TileSize>
+            <EdgeSize><AbsValue val="32"/></EdgeSize> -->
+        </Backdrop>
+        <Scripts>
+            <OnLoad>self:RegisterForDrag("LeftButton");</OnLoad>
+            <OnDragStart>self:StartMoving();</OnDragStart>
+            <OnDragStop>self:StopMovingOrSizing();</OnDragStop>
+        </Scripts>
+
+        <!-- these are elements -->
+        <Layers>
+            
+            <Layer>
+                <Texture name="MyTexture" file="Interface\ItemSocketingFrame\UI-ItemSockets" alphaMode="ADD">
+                    <Size><AbsDimension x="40" y="40"/></Size>
+                    <Anchors>
+                        <Anchor point="CENTER">
+                            <Offset><AbsDimension x="0" y="0"/></Offset>
+                        </Anchor>
+                    </Anchors>
+                </Texture>
+            </Layer>
+
+            <Layer>
+                
+            </Layer>
+
+        </Layers>
+
+    </Frame>
+</Ui>

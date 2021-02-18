@@ -1,0 +1,69 @@
+<Root>
+    <!-- these inherit from LayoutFrame -->
+    <Frame alpha="1.0" parent="" topLevel="false" flattenRenderLayers="false" useParentLevel="false"
+           movable="false" resizable="false" frameStrata="PARENT" frameLevel="" id="0"
+           enableMouseClicks="false" enableMouseMotion="false" enableKeyboard="false"
+           clampedToScreen="false" protected="false" depth="0" dontSavePosition="false"
+           propagateKeyboardInput="false" ignoreParentAlpha="false" ignoreParentScale="false" intrinsic="false"
+           clipChildren="false" propagateHyperlinksToParent="false" hyperlinksEnabled="false">
+        <TitleRegion/>
+        <ResizeBounds/>
+        <Backdrop/>
+        <HitRectInsets/>
+        <Layers/>
+        <Frames/>
+        <Scripts/>
+        <Attributes/>
+    </Frame>
+    <!-- CreateFrame(FrameType,Name,ParentName,inheritsFrom)
+        alpha
+        parent
+        topLevel
+        flattenRenderLayers
+        useParentLevel
+        movable
+        resizable
+        frameStrata
+        frameLevel
+        enableMouseClicks
+        enableMouseMotion
+        enableKeyboard
+        clampedToScreen
+        protected
+
+
+    -->
+
+
+    <ControlPoint/><!-- no reference -->
+
+
+    <Texture file="" alphaMode="">
+        <TexCoords/>
+        <Color/>
+        <Gradient/>
+    </Texture>
+
+
+    <MaskTexture/><!-- no reference -->
+
+
+    <Line/><!-- no reference -->
+
+
+    <FontString text="" bytes="" spacing="" outline="" monochrome=""
+                nonspacewrap="" worldWrap=""
+                justifyH="" justifyV="" maxLines="" indented="">
+        <!-- include fatherClass's elements -->
+        <FontHeight/>
+        <Color/>
+        <Shadow/>
+    </FontString>
+    <!--
+        text 文本内容
+        nonSpaceWrap 是否到达父框架末尾不换行
+        bytes
+        maxLines 文本框中最大行数
+     -->
+
+</Root>
