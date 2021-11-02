@@ -67,18 +67,18 @@ local function ShowConfig()
     ConfigFrame:Show()
 end
 
-local function InitializeConifgurationFrame(self, event, ...)
+local function InitializeConfigurationFrame(self, event, ...)
     AdjustCheckButtons()
     ConfigFrame:Hide()
 end
 -----------------------------------------------------------------------
--- Excute code
+-- Execute code
 ApplyButton:SetScript("OnClick", OnClick_Apply)
 ConfirmButton:SetScript("OnClick", OnClick_Confirm)
 CancelButton:SetScript("OnClick", OnClick_Cancel)
 
 local ADDON_LOADED_HandlerArray = moduleStatisticsDisplayer.ADDON_LOADED_HandlerArray
-table.insert(ADDON_LOADED_HandlerArray, InitializeConifgurationFrame)
+table.insert(ADDON_LOADED_HandlerArray, InitializeConfigurationFrame)
 
 
 
